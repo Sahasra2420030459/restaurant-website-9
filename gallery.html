@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Savor & Sage</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<base target="_blank">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div class="loader-logo">🍽️ Savor & Sage</div>
+        <div class="loader-bar">
+            <div class="loader-progress"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">🍽️ Savor & Sage</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><button class="dark-mode-toggle" title="Toggle Dark Mode">🌙</button></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="about-hero" style="height: 50vh; min-height: 400px;">
+        <div class="about-hero-bg" style="background: linear-gradient(rgba(26, 26, 46, 0.7), rgba(26, 26, 46, 0.8)), url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1920') center/cover;"></div>
+        <div class="hero-content" style="position: relative; z-index: 2;">
+            <div class="hero-badge">Visual Journey</div>
+            <h1>Our Gallery</h1>
+            <p>A Visual Feast of Flavors & Ambiance</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-header animate-on-scroll">
+            <div class="section-label">Food & Ambiance</div>
+            <h2 class="section-title">Captured Moments</h2>
+            <p class="section-subtitle">Click on any image to view it in full size.</p>
+        </div>
+        <div class="gallery-grid stagger-children">
+            <div class="gallery-item animate-on-scroll">
+                <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=600" alt="Truffle Risotto">
+                <div class="gallery-overlay">
+                    <h3>Truffle Risotto</h3>
+                    <p>Our signature dish</p>
+                </div>
+            </div>
+            <div class="gallery-item animate-on-scroll">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600" alt="Wood-Fired Pizza">
+                <div class="gallery-overlay">
+                    <h3>Wood-Fired Pizza</h3>
+                    <p>Fresh from the oven</p>
+                </div>
+            </div>
+            <div class="gallery-item animate-on-scroll">
+                <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600" alt="Restaurant Interior">
+                <div class="gallery-overlay">
+                    <h3>Main Dining Hall</h3>
+                    <p>Elegant ambiance</p>
+                </div>
+            </div>
+            <div class="gallery-item animate-on-scroll">
+                <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600" alt="Grilled Salmon">
+                <div class="gallery-overlay">
+                    <h3>Grilled Salmon</h3>
+                    <p>Fresh Atlantic salmon</p>
+                </div>
+            </div>
+            <div class="gallery-item animate-on-scroll">
+                <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600" alt="Tiramisu">
+                <div class="gallery-overlay">
+                    <h3>Tiramisu</h3>
+                    <p>Classic Italian dessert</p>
+                </div>
+            </div>
+            <div class="gallery-item animate-on-scroll">
+                <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600" alt="Chocolate Lava Cake">
+                <div class="gallery-overlay">
+                    <h3>Chocolate Lava Cake</h3>
+                    <p>Decadent dessert</p>
+                </div>
+            </div>
+            <div class="gallery-item animate-on-scroll">
+                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600" alt="Fine Dining Setup">
+                <div class="gallery-overlay">
+                    <h3>Fine Dining Setup</h3>
+                    <p>Perfect for special occasions</p>
+                </div>
+            </div>
+            <div class="gallery-item animate-on-scroll">
+                <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600" alt="Restaurant At Night">
+                <div class="gallery-overlay">
+                    <h3>Evening Ambiance</h3>
+                    <p>Romantic dinner setting</p>
+                </div>
+            </div>
+            <div class="gallery-item animate-on-scroll">
+                <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=600" alt="Wine Tasting">
+                <div class="gallery-overlay">
+                    <h3>Wine Collection</h3>
+                    <p>Curated selections</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <span class="lightbox-close">×</span>
+        <img src="" alt="Gallery Image">
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Savor & Sage</h4>
+                <p>Experience the art of fine dining.</p>
+                <div class="footer-social">
+                    <a href="#">📘</a>
+                    <a href="#">📷</a>
+                    <a href="#">🐦</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>📍 Mumbai, India</p>
+                <p>📞 +91 98765 43210</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p> 2024 Savor & Sage. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Book Button -->
+    <a href="reservations.html" class="floating-book">
+        <span>📅</span> Book Now
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
